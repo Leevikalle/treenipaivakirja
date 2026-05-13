@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a id="EnterWorkout" href="index.html">Enter Workout</a>
+        <a id="Diary" href="workouts.html">Workouts</a>
+        <a id="WorkoutTemplates"href="templates.html">Workout Templates</a>
+    </nav>
+
+
+<h1 id="Enter">Make Template</h1>
+
+<input type="text" id="workoutTemplate" placeholder="Add Title">
+<div id="exercises">
+    <input type="text" placeholder="Exercise 1">
+</div>
+<button onclick="addExercise()" id="addExercise">Add Exercise</button>
+<button onclick="saveWorkout()">Save Workout</button>
+<div id="saved"></div>
+<script src="script.js"></script>  
+</body>
+</html>

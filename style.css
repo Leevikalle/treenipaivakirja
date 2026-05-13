@@ -1,0 +1,63 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  background-size: cover;
+  
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 1500vh;
+}
+
+button {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+  padding: 15px 30px;
+  font-size: 25px;
+  color: white;
+  border-color: white;
+  background-color: black;
+  position: relative;
+
+}
+
+#workoutDate {
+    padding: 30px;
+}
+
+#templatet {
+    padding: 15px;
+}
+
+#EnterWorkout {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-color: white;
+
+}
+#Diary {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-color: white;
+
+}
+#WorkoutTemplates {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-color: white;
+
+}
+
+#addExercise {
+    margin:10px;
+}
